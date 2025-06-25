@@ -9,7 +9,7 @@ porta = 'COM5'
 baudrate = 9600
 arquivo_saida = 'dados.csv'
 
-# Buffer dos gráficos (ajuste conforme necessário)
+# Buffer dos gráficos
 buffer_size = 100
 tempos = deque(maxlen=buffer_size)
 movimentos = deque(maxlen=buffer_size)
